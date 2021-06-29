@@ -401,7 +401,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -426,7 +426,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #dce8f8;
+  background: #b9bcc0;
   height: 10px;
 }
 
@@ -1056,13 +1056,15 @@ section {
 
 #footer .copyright {
   text-align: center;
+  font-size: 11px;
+  color: #343A40;
 }
 
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
+  font-size: 11px;
+  color: #343A40;
 }
 
 @media (max-width: 1199px) {
@@ -1072,3 +1074,62 @@ section {
     padding-right: 20px 15px;
   }
 }
+/*--------------------------------------------------------------
+# Added extras
+--------------------------------------------------------------*/
+.d-block {
+  display: block !important; }
+
+.blog-entry {
+position: relative; }
+@media (min-width: 768px) {
+  .blog-entry {
+    margin-bottom: 30px; } }
+@media (max-width: 767.98px) {
+  .blog-entry {
+    margin-bottom: 30px; } }
+.blog-entry .text {
+  width: 100%;
+  margin: 0 auto; }
+  .blog-entry .text .heading {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: 500; }
+    .blog-entry .text .heading a {
+      color: #000000; }
+      .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
+        color: #149ddd; }
+.blog-entry .meta {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 600; }
+  .blog-entry .meta span {
+    color: #149ddd; }
+  .blog-entry .meta a {
+    color: #149ddd; }
+    .blog-entry .meta a:hover {
+      color: #149ddd; }
+
+.justify-content-end {
+  -webkit-box-pack: end !important;
+  -ms-flex-pack: end !important;
+  justify-content: flex-end !important; }
+
+      
+.block-20 {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 375px; }
+
+.align-items-center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important; }
+
