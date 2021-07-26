@@ -1,0 +1,19 @@
+{
+  "name": "keep-notes",
+  "version": "1.0.0",
+  "description": "A simple web app to keep notes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently \"nodemon server.js\" \"cd client && npm run start\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "Jackie Allam",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3"
+  }
+}
