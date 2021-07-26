@@ -7,7 +7,6 @@ const noteSchema = new mongoose.Schema({
   },
   content: {
     type: String
-    // required: [true, "Content can't be blank"]
   }
 });
 
